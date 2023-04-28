@@ -3,6 +3,7 @@
 set -e
 set -u
 
+
 if [ $# -eq 2 ]
 then	
 	if [ -f "$1" ] || [ -z "$2" ]
